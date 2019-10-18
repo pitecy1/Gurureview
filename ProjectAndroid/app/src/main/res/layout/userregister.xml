@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/register1"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/txtUser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginEnd="48dp"
+        android:layout_marginBottom="317dp"
+        android:background="@drawable/re_user"
+        android:hint="username"
+        android:paddingLeft="100dp"
+        android:textColor="#000"
+        android:textSize="20dp" />
+
+    <EditText
+        android:id="@+id/txtPass"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtUser"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="63dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:paddingLeft="100dp"
+        android:hint="password"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="44dp"
+        android:layout_marginBottom="251dp"
+        android:background="@drawable/re_pass" />
+
+    <EditText
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:paddingLeft="100dp"
+        android:textColor="#000"
+        android:hint="name"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="47dp"
+        android:layout_marginBottom="193dp"
+        android:background="@drawable/re_name" />
+
+    <EditText
+        android:id="@+id/txtEmail"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="70dp"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:hint="e-mail"
+        android:paddingLeft="100dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="133dp"
+        android:background="@drawable/email" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="155dp"
+        android:layout_height="55dp"
+        android:layout_alignTop="@+id/txtUser"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="190dp"
+        android:layout_marginBottom="39dp"
+        android:background="@drawable/btnregister" />
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="134dp"
+        android:layout_height="53dp"
+        android:layout_alignTop="@+id/txtUser"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="221dp"
+        android:layout_marginTop="273dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="38dp"
+        android:background="@drawable/btncancel" />
+
+</RelativeLayout>

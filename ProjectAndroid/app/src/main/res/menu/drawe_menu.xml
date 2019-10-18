@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/profile" android:title="Profile" android:icon="@drawable/ic_account_circle_black_24dp" />
+        <item android:id="@+id/search" android:title="Search" android:icon="@drawable/ic_search_black_24dp" />
+        <item android:id="@+id/addreview" android:title="New Review" android:icon="@drawable/ic_file_upload_black_24dp" />
+        <item android:id="@+id/activity" android:title="My Review" android:icon="@drawable/ic_folder_black_24dp" />
+    </group>
+
+    <item android:title="Communucate">
+        <menu>
+            <item android:id="@+id/setting" android:title="Setting" android:icon="@drawable/ic_settings_black_24dp" />
+            <item android:id="@+id/logout" android:title="Logout" android:icon="@drawable/ic_power_settings_new_black_24dp" />
+        </menu>
+    </item>
+
+</menu>

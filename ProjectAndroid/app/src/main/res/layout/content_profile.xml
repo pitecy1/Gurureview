@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".profile"
+    android:background="@drawable/profile"
+    tools:showIn="@layout/app_bar_profile">
+
+
+    <ImageView
+        android:id="@+id/img_profile"
+        android:layout_width="206dp"
+        android:layout_height="125dp"
+        android:padding="15dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="104dp"
+        android:layout_marginEnd="101dp"
+        android:layout_marginBottom="398dp"
+        android:background="@drawable/photo"
+        />
+        <!--android:background="@mipmap/ic_launcher_round"-->
+
+
+
+    <Button
+        android:id="@+id/btnChangImgProfile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="332dp"
+        android:background="@drawable/btnchang" />
+
+    <TextView
+        android:id="@+id/txtUsername_profile"
+        android:layout_width="340dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="248dp"
+        android:background="@drawable/txtview" />
+
+    <TextView
+        android:id="@+id/txtName_profile"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="190dp"
+        android:background="@drawable/txtview" />
+
+    <TextView
+        android:id="@+id/txtEmail_profile"
+        android:layout_width="340dp"
+        android:paddingTop="20dp"
+        android:paddingLeft="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="132dp"
+        android:background="@drawable/txtview" />
+
+    <Button
+        android:id="@+id/btnSetting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/btnedit" />
+
+
+
+</RelativeLayout>

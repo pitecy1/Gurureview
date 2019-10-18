@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".report"
+    android:background="@drawable/report"
+    tools:showIn="@layout/app_bar_report">
+
+    <ImageView
+        android:id="@+id/reportimg"
+        android:layout_width="269dp"
+        android:layout_height="192dp"
+        android:padding="20dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="408dp"
+        android:background="@drawable/photo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="72dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="333dp"
+        android:background="@drawable/textreport" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="28dp"
+        android:layout_marginEnd="258dp"
+        android:layout_marginBottom="290dp"
+        android:text="Select Report"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spnReport"
+        android:entries="@array/report"
+        android:layout_width="215dp"
+        android:layout_height="55dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="163dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="273dp"
+        />
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="283dp"
+        android:layout_marginBottom="166dp"
+        android:text="message"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtReport"
+        android:layout_width="237dp"
+        android:layout_height="131dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="120dp"
+        android:background="@drawable/message"
+        android:hint="message report..."
+        android:paddingLeft="30dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnReport"
+        android:layout_width="142dp"
+        android:layout_height="60dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="131dp"
+        android:layout_marginBottom="36dp"
+        android:background="@drawable/btnreport" />
+
+
+</RelativeLayout>

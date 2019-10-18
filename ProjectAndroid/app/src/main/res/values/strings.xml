@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ProjectReview</string>
+
+    <string name="student_id">Student Id</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_register">Register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_password_to_short">This password is not less than 4 characters</string>
+    <string name="loading">Loading</string>
+    <string name="please_wait">Please wait..</string>
+
+    <string name="title_activity_welcome">WelcomeActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <!--URL-->
+    <string name="root_url">http://192.168.1.75:8080</string>
+    <string name="login_url">/user/login</string>
+    <string name="register_url">/user/register</string>
+    <string name="addreview_url">/Review/add</string>
+    <string name="getAllreview_url">/Review/getAllReview</string>
+    <string name="getReviewByUsername">/Review/getReviewByUsername</string>
+    <string name="getReviewByIdReview">/Review/getReviewByIdReview</string>
+    <string name="deleteReviewOnId">/Review/deleteReviewFromIdReview</string>
+    <string name="searchReview">/Review/searchReviewByString</string>
+    <string name="selectCountLiked">/liked/liked</string>
+    <string name="checkLiked">/liked/checkLiked</string>
+    <string name="getCount">/liked/getCount</string>
+    <string name="dolike">/liked/dolike</string>
+    <string name="doUnlike">/liked/doUnlike</string>
+    <string name="addComment">/comment/addComment</string>
+    <string name="getListComment">/comment/getListCommentByReviewId</string>
+    <string name="updateUrlProfile">/user/updateUrlProfile</string>
+    <string name="convertpassword">/user/convartPasswordToSHA</string>
+    <string name="updateUser">/user/updateUser</string>
+    <string name="getCategory">/category/getCategory</string>
+
+
+    <!--ERROR-->
+    <string name="global">Error,please try again.</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_profile">Profile</string>
+    <string name="title_activity_addreview">Add Reviews</string>
+    <string name="title_activity_feeds">Feeds</string>
+    <string name="title_activity_search">Search</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_setting">Setting</string>
+    <string name="title_activity_review_detail">Review_detail</string>
+    <string name="title_activity_report">report</string>
+    <string name="takerReport">/Report/takerReport</string>
+
+    <string-array name="report">
+        <item>improper</item>
+        <item>nudity</item>
+        <item>harassment</item>
+        <item>spam</item>
+        <item>terrorism</item>
+        <item>sexual</item>
+    </string-array>
+
+</resources>
